@@ -14,6 +14,8 @@ export class TenantConnectionService {
 
   async getTenantModel({ name, schema }, tenantId: string) {
     const tenantConnection = this.getTenantConnection(tenantId);
+    // we are connected with correct tenant database
+    // now we can create or retrive any model
     return tenantConnection.model(name, schema);
   }
 }

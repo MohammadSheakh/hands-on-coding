@@ -16,6 +16,8 @@ export class TenantsService {
     private authService: AuthService,
   ) {}
 
+
+  // important : it makes sure that tenant actually exists .. 
   async getTenantById(tenantId: string) {
     return this.TenantModel.findOne({ tenantId });
   }

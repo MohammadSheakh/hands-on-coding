@@ -1,0 +1,2 @@
+Computerix : Multitenancy in NestJS + Mongoose 
+https://www.youtube.com/watch?v=j8WzYeDrajA&list=PLHVUNsO6sqSpeFjQBl1KZMYEI-IL5idqZ&index=12

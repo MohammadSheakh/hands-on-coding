@@ -18,6 +18,7 @@ export class TenantsMiddleware implements NestMiddleware {
       throw new BadRequestException('X-TENANT-ID not provided');
     }
 
+    // this is important :: otherwise, manush jon different tanentId pass kore .. database create kore felbe
     const tenantExits = await this.tenantsService.getTenantById(tenantId);
     if (!tenantExits) {
       throw new NotFoundException('Tenant does not exist');
