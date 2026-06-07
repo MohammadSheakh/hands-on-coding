@@ -22,6 +22,7 @@ export class TenantsService {
     return this.TenantModel.findOne({ tenantId });
   }
 
+  // one user belongs to one company only 
   async createCompany(companyData: CreateCompanyDto) {
     //Verify user does not already exist
     const user = await this.usersService.getUserByEmail(companyData.user.email);
