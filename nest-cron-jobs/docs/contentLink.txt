@@ -1,0 +1,9 @@
+Computerix : Cron
+https://www.youtube.com/watch?v=ZsficIGDjbo&list=PLHVUNsO6sqSpeFjQBl1KZMYEI-IL5idqZ&index=27
+
+
+npm i @nestjs/schedule
+
+for details 
+
+crontab.guru
