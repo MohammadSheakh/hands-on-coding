@@ -1,0 +1,9 @@
+Computerix : kafka
+https://www.youtube.com/watch?v=fSiVvDq4o1g&list=PLHVUNsO6sqSpeFjQBl1KZMYEI-IL5idqZ&index=28
+
+npm i  @nestjs/microservices kafkajs
+
+for details 
+
+
+
