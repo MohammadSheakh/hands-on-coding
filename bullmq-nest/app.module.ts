@@ -19,9 +19,9 @@ import { BullModule } from '@nestjs/bullmq';
             },
             defaultJobOption : { 
                 attempts : 3,
-                removeOnComplete : 1000,
-                removeOnFail : 3000,
-                backoff : 2000,
+                removeOnComplete : 1000, // keep 1000 job
+                removeOnFail : 3000, // for logging
+                backoff : 2000, // job is wait at least 2 seconds before being processed 
             }
         }),
         // register a bull queue

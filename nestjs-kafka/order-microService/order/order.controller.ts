@@ -7,7 +7,7 @@ import { OrderDto } from './dtos/order.dto';
 export class OrderController {
   constructor(
     private readonly orderService: OrderService,
-  ) {}
+  ) { }
 
 
   @Post()
@@ -15,5 +15,9 @@ export class OrderController {
     return this.orderService.createOrder(order);
   }
 
+  @Get(':id/logs')
+  async getOrderLogs() {
+    return this.orderService.getOrderLogs();
+  }
 
 }

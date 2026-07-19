@@ -963,7 +963,7 @@
       "version": 150,
       "versionNonce": 8238544,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1783228397756,
       "link": null,
       "locked": false,
@@ -1093,7 +1093,7 @@
       "version": 157,
       "versionNonce": 43779376,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1783228945015,
       "link": null,
       "locked": false,
@@ -1187,7 +1187,7 @@
       "version": 122,
       "versionNonce": 551226160,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1783228946414,
       "link": null,
       "locked": false,
@@ -1215,8 +1215,8 @@
     {
       "id": "h9X-u4ztk7QohexHEGmX7",
       "type": "image",
-      "x": 315.66802469215156,
-      "y": 1461.9491717801568,
+      "x": 310.5790915112285,
+      "y": 1460.7977693532068,
       "width": 595.1273294324147,
       "height": 556.8047362492667,
       "angle": 0,
@@ -1232,8 +1232,8 @@
       "index": "ag",
       "roundness": null,
       "seed": 1556533712,
-      "version": 144,
-      "versionNonce": 1310006736,
+      "version": 160,
+      "versionNonce": 993317585,
       "isDeleted": false,
       "boundElements": [
         {
@@ -1241,7 +1241,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1783233352071,
+      "updated": 1783415277452,
       "link": null,
       "locked": false,
       "status": "pending",
@@ -1257,8 +1257,8 @@
       "type": "arrow",
       "x": 1066.3605293286173,
       "y": 1300.2802451356408,
-      "width": 144.18747986443316,
-      "height": 309.0175098715945,
+      "width": 149.27641304535632,
+      "height": 313.6243993728374,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -1274,11 +1274,11 @@
         "type": 2
       },
       "seed": 1517233456,
-      "version": 79,
-      "versionNonce": 1062265808,
+      "version": 95,
+      "versionNonce": 1133793457,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1783233352071,
+      "boundElements": [],
+      "updated": 1783415277452,
       "link": null,
       "locked": false,
       "points": [
@@ -1287,8 +1287,8 @@
           0
         ],
         [
-          -144.18747986443316,
-          309.0175098715945
+          -149.27641304535632,
+          313.6243993728374
         ]
       ],
       "lastCommittedPoint": null,
